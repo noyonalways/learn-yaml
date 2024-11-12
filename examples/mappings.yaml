@@ -1,0 +1,11 @@
+paper:
+  uuid: 8a8cbf60-e067-11e3-8b68-0800200c9a66
+  name: On formally undecidable propositions of Principia Mathematica and related systems I.
+  author: John Doe
+tags:
+  - tag:
+      uuid: 98fb0d90-e067-11e3-8b68-0800200c9a66
+      name: Mathematics
+  - tag:
+      uuid: 3f25f680-e068-11e3-8b68-0800200c9a66
+      name: Logic
