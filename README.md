@@ -1,4 +1,4 @@
-<img style="border-radius: 8px" width="100%" src="https://i.ibb.co.com/R6CFG73/yaml-github-banner.png" alt="learning-yaml-banner-image"/>
+<img style="border-radius: 8px" width="100%" src="https://i.ibb.co.com/R6CFG73/yaml-github-banner.png" alt="learn-yaml-banner-image"/>
 
 # YAML - Introduction
 
@@ -8,6 +8,8 @@ All of these factors contribute to YAML’s popularity as a configuration langua
 
 - [YAML - Introduction](#yaml---introduction)
   - [What is a YAML used for?](#what-is-a-yaml-used-for)
+  - [Examples](#examples)
+  - [Important Links](#important-links)
 - [Basic YAML Syntax](#basic-yaml-syntax)
 - [YAML Data types](#yaml-data-types)
   - [Scalar data type:](#scalar-data-type)
@@ -46,6 +48,25 @@ Here are some of the most common use cases for YAML:
 - **Container orchestration (CO)** – [K8s](https://kubernetes.io) and [Docker Compose](https://docs.docker.com/compose) rely heavily on yaml files to describe the infrastructure resources.
 - **Data serialization** – YAML can be used to describe complex data types such as lists, maps, and objects.
 - **APIs** – YAML can be used in defining API contracts and specifications (e.g. [OpenAPI](https://spec.openapis.org/oas/latest.html))
+
+## Examples
+
+- [Example](./examples/example.yaml)
+- [Basic Syntax](./examples/basic-syntax.yaml)
+- [Comments](./examples/comments.yaml)
+- [Mappings](./examples/mappings.yaml)
+- [Sequence](./examples/sequences.yaml)
+- [Documents](./examples/documents.yaml)
+- [Docker Compose](./examples/docker-compose.yaml)
+- [Open API](./examples/openapi.yaml)
+
+## Important Links
+
+- [Java Point YAML](https://www.javatpoint.com/yaml-tags)
+- [Tutorials Point YAML](https://www.tutorialspoint.com/yaml/index.htm)
+- [Spacelift YAML](https://spacelift.io/blog/yaml)
+- [Redhat YAML](https://www.redhat.com/en/blog/yaml-beginners)
+- [Github Notes](https://github.com/noyonalways/learning-yaml)
 
 ```yaml
 # A sample yaml file
