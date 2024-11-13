@@ -601,7 +601,7 @@ That means double quotes consider **\n** as a new line, and single quotes consid
 
 If we want to add a value that happens to be longer and need to spend across multiple lines, there are two different symbols which allow for multiple lines. The first one is |, and the second one is >.
 
-In YAML, we can write a multi-line string in a newline using | symbol. In this, the newline character(\n) will be **included**.
+> In YAML, we can write a multi-line string in a newline using \| symbol. In this, the newline character(\n) will be **included**.
 
 Example 4:
 
@@ -611,7 +611,7 @@ downtime_sch: |
   2020-05-12 - security fix
 ```
 
-In the above example, we have a downtime_sch key, and then we have a | symbol, which indicates that it is going to be multiple lines. Now under that, we have a date for a kernel upgrade in the first line, and we have a date for security fix in the second line. When we process the above example, we will see the new lines where they are in the document as follows:
+In the above example, we have a downtime_sch key, and then we have a \| symbol, which indicates that it is going to be multiple lines. Now under that, we have a date for a kernel upgrade in the first line, and we have a date for security fix in the second line. When we process the above example, we will see the new lines where they are in the document as follows:
 
 ```yaml
 downtime_sch:
@@ -619,7 +619,7 @@ downtime_sch:
 2020-05-12 - security fix
 ```
 
-In YAML, we can write a multi-line string in a single line using > symbol. In this, a newline character(\n) will be **ignored**.
+> In YAML, we can write a multi-line string in a single line using > symbol. In this, a newline character(\n) will be **ignored**.
 
 Example 5:
 
