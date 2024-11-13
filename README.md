@@ -249,7 +249,7 @@ The above string will interpret without the new lines as follows:
 str: this is a multi-line string it spans more than one line
 ```
 
-> In YAML, we can write multi-line string in a newline using | symbol. In this, the newline character(\n) will be included.
+> In YAML, we can write multi-line string in a newline using \| symbol. In this, the newline character(\n) will be included.
 
 Example:
 
